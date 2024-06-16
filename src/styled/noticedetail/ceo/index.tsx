@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import * as S from '@/styled/noticedetail/index.styled';
+import * as S from '../index.styled';
 import { useSearchParams } from 'next/navigation';
 import Header from '@/shared/components/Header/Header';
 import Footer from '@/shared/components/Footer/Footer';

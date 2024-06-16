@@ -1,5 +1,5 @@
 import Header from '@/shared/components/Header/Header';
-import * as S from '@/styled/mystore/edit/index.styled';
+import * as S from './index.styled';
 import { InputContent } from '@/widgets/createStore';
 import { useSearchParams } from 'next/navigation';
 import { useRouter } from 'next/router';

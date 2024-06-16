@@ -1,6 +1,6 @@
 import { Logo } from '@/components/auth';
 import { PageLayout } from '@/components/auth';
-import * as S from '@/styled/signin/index.styled';
+import * as S from './index.styled';
 import Link from 'next/link';
 import { SigninForm } from '@/widgets/signin';
 import { useRouterGuard } from '@/shared/utils/useRouterGuard';

@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from '@/styled/mypage/edit/index.styled';
+import * as S from './index.styled';
 import Header from '@/shared/components/Header/Header';
 import Footer from '@/shared/components/Footer/Footer';
 import { RegistrationProfile } from '@/widgets/registrationMyPage';

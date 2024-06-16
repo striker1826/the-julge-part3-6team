@@ -1,5 +1,5 @@
 import Header from '@/shared/components/Header/Header';
-import * as S from '@/styled/mystore/create/index.styled';
+import * as S from './index.styled';
 import { InputContent, ModalContainer } from '@/widgets/createStore';
 import { useModal } from '@/shared/store/useModal';
 import { mutateAddStore } from '@/models/store/mutateAddStore';

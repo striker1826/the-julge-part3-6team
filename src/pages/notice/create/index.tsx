@@ -1,5 +1,5 @@
 import Header from '@/shared/components/Header/Header';
-import * as S from './index.styled';
+import * as S from '@/styled/notice/create/index.styled';
 import { InputContent, ModalContainer } from '@/widgets/createNotice';
 import { useEffect } from 'react';
 import { createNoticeMutate } from '@/models/notice/createNoticeMutate';

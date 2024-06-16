@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from '@/shared/components/Header/Header';
 import Footer from '@/shared/components/Footer/Footer';
 import { ProfileContent } from '@/widgets/mypage/ui/ProfileContent/ProfileContent';

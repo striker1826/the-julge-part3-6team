@@ -1,7 +1,7 @@
 import { SignupForm } from '@/widgets/signup';
 import { Logo } from '@/components/auth';
 import { PageLayout } from '@/components/auth';
-import * as S from '@/styled/signup/index.styled';
+import * as S from './index.styled';
 import Link from 'next/link';
 
 const index = () => {

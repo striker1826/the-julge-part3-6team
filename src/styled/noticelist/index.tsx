@@ -1,6 +1,6 @@
 import Header from '@/shared/components/Header/Header';
 import React, { useState } from 'react';
-import * as S from '@/styled/noticelist/index.styled';
+import * as S from './index.styled';
 import Footer from '@/shared/components/Footer/Footer';
 import Pagination from '@/shared/components/Pagination/Pagination';
 import { useModal } from '@/shared/store/useModal';

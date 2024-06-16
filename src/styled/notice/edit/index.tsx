@@ -1,5 +1,5 @@
 import Header from '@/shared/components/Header/Header';
-import * as S from '@/styled/notice/edit/index.styled';
+import * as S from './index.styled';
 import { InputContent } from '@/widgets/createNotice';
 import { useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';

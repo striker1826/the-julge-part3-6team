@@ -37,7 +37,6 @@ export const observerByScroll = ({
 
     const observer = new IntersectionObserver(handleObserver, options);
     const currentDivRef = ref.current;
-
     if (currentDivRef) {
       observer.observe(currentDivRef);
     }
@@ -47,5 +46,5 @@ export const observerByScroll = ({
         observer.unobserve(currentDivRef);
       }
     };
-  }, [isLoading]);
+  }, [isLoading, ref]);
 };

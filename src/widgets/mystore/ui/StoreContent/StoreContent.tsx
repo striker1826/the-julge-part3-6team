@@ -20,5 +20,5 @@ export const StoreContent = ({ store, isLoading }: Props) => {
     <NotfoundStore />
   );
 
-  return <>{renderSpinner(storeContent, isLoading)}</>;
+  return renderSpinner(storeContent, isLoading);
 };

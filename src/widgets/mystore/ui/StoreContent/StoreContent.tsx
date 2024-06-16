@@ -3,6 +3,7 @@ import { renderSpinner } from '@/shared/utils/renderSpinner';
 
 interface Props {
   store: Store;
+
   isLoading: boolean;
 }
 

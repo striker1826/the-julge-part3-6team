@@ -37,7 +37,7 @@ export const ViewFlexBox = styled.div`
 `;
 
 export const HeightCon = styled.div`
-  padding: 0px 0px 60px;
+  padding: 32px 0px 60px;
 
   @media (max-width: 744px) {
     padding: 0px 0px 120px;

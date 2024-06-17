@@ -13,10 +13,8 @@ export const NoticeContent = ({ store }: Props) => {
   const divRef = useRef<HTMLDivElement | null>(null);
   const [pagenation, setPagenation] = useState({ offset: 0, hasNext: true });
   const [noticeList, setNoticeList] = useState<{ item: Notice }[]>([]);
-  const { data, isFetched, isLoading } = useGetNoticeByStoreId(
-    store?.id,
-    pagenation.offset,
-  );
+  const { data, isFetched, isLoading, isRefetching, isFetching } =
+    useGetNoticeByStoreId(store?.id, pagenation.offset);
 
   useUpdateNoticeList(data, setNoticeList, setPagenation);
   observerByScroll({ isLoading, pagenation, setPagenation, ref: divRef });
@@ -30,7 +28,5 @@ export const NoticeContent = ({ store }: Props) => {
     <NotFoundNotice shop_id={store?.id} />
   );
 
-  return (
-    <>{noticeList ? noticeContent : renderSpinner(noticeContent, isFetched)}</>
-  );
+  return renderSpinner(noticeContent, isLoading && !isFetching);
 };
